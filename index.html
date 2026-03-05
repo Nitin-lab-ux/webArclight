@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebArcLight Pro — Startup-First Digital Product Engineering</title>
+  <meta name="description" content="WebArcLight Pro helps founders build secure, scalable websites, apps, and custom software with startup-first execution." />
+  <meta property="og:title" content="WebArcLight Pro — Startup-First Digital Product Engineering" />
+  <meta property="og:description" content="Turn ideas into high-performance digital products." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1400&auto=format&fit=crop" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"WebArcLight Pro",
+    "url":"https://example.com",
+    "description":"Startup-first software development company",
+    "sameAs":[]
+  }
+  </script>
+</head>
+<body>
+  <header class="header blur">
+    <div class="container nav">
+      <a class="logo" href="#">WebArcLight<span>Pro</span></a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#why">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-sm" href="#contact">Book Call</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">STARTUP-FIRST ENGINEERING PARTNER</p>
+          <h1>Turn your idea into a <span>real digital product</span> — faster, cleaner, smarter.</h1>
+          <p class="subtitle">We design and build websites, mobile apps, SaaS platforms, and automation systems that are secure, scalable, and conversion-focused from day one.</p>
+          <div class="actions">
+            <a href="#contact" class="btn">Start Your Project</a>
+            <a href="#services" class="btn ghost">Explore Services</a>
+          </div>
+          <div class="stats">
+            <div><strong>50+</strong><span>Projects</span></div>
+            <div><strong>98%</strong><span>Client Satisfaction</span></div>
+            <div><strong>24/7</strong><span>Support</span></div>
+          </div>
+        </div>
+        <div class="hero-card float">
+          <h3>Build Plan Snapshot</h3>
+          <ul>
+            <li>✅ Discovery + technical blueprint</li>
+            <li>✅ MVP build in iterative sprints</li>
+            <li>✅ SEO + speed + analytics baked in</li>
+            <li>✅ Growth-ready architecture</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Core Services</h2>
+        <p class="section-sub">Everything needed to launch and scale modern digital products.</p>
+        <div class="cards">
+          <article class="card"><h3>Web Development</h3><p>High-performance marketing sites, web apps, and enterprise platforms with responsive UX.</p></article>
+          <article class="card"><h3>Mobile Apps</h3><p>Flutter/React Native apps with smooth UX, secure APIs, and scalable cloud infrastructure.</p></article>
+          <article class="card"><h3>E-commerce Engineering</h3><p>Conversion-optimized Shopify, WooCommerce, and custom storefronts with speed optimization.</p></article>
+          <article class="card"><h3>CMS & Headless</h3><p>Flexible content systems with modern headless architecture and multi-channel publishing.</p></article>
+          <article class="card"><h3>Cybersecurity</h3><p>Security hardening, data protection best practices, and compliance-oriented implementation.</p></article>
+          <article class="card"><h3>Automation & DevOps</h3><p>CI/CD pipelines, deployment automation, and cloud operations that reduce costs and risk.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section alt">
+      <div class="container">
+        <h2>Simple & Transparent Process</h2>
+        <div class="timeline">
+          <div><span>01</span><h3>Discover</h3><p>We align business goals, audience, and technical scope.</p></div>
+          <div><span>02</span><h3>Design</h3><p>Wireframes and UI systems focused on conversion and usability.</p></div>
+          <div><span>03</span><h3>Build</h3><p>Agile sprints with weekly demos and clear progress visibility.</p></div>
+          <div><span>04</span><h3>Launch & Scale</h3><p>Deployment, monitoring, optimization, and long-term support.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section">
+      <div class="container">
+        <h2>Why Founders Choose Us</h2>
+        <div class="bullets">
+          <p>Founder-friendly communication (no confusing tech jargon)</p>
+          <p>Realistic pricing and timelines</p>
+          <p>Scalable architecture, not short-term hacks</p>
+          <p>Long-term technical partner mindset</p>
+          <p>Focus on solving business problems, not just shipping code</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section cta">
+      <div class="container cta-wrap">
+        <div>
+          <h2>Let’s build your next product.</h2>
+          <p>Share your idea and we’ll propose roadmap, timeline, and architecture.</p>
+        </div>
+        <form class="lead-form" onsubmit="return submitLead(event)">
+          <input required type="text" placeholder="Your name" />
+          <input required type="email" placeholder="Your email" />
+          <textarea required placeholder="Tell us about your project"></textarea>
+          <button class="btn" type="submit">Send Inquiry</button>
+          <p id="formMsg" class="form-msg"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <p>© <span id="year"></span> WebArcLight Pro. All rights reserved.</p>
+      <div><a href="#">Privacy</a><a href="#">Terms</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
